@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass-X : Your Password-Manage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">PASS-X</div>
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT US</li>
+            <li>CONTACT US</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>PASSWORD MANAGER</h1>
+        <p>Our intuitive and user-friendly interface makes it easy to add, edit, or delete passwords. You'll have
+            everything at your fingertips with just a few clicks.</p>
+        <h2>Your Passwords <span id="alert">(Copied!)</span></h2>
+        
+        <table>
+            <tr>
+                <th class="wrap">Website </th>
+                <th class="wrap">Username</th>
+                <th class="wrap">Password</th>
+                <th>Delete</th>
+            </tr>
+           
+            
+        </table>
+
+        <H2>ADD A PASSWORD</H2>
+        <form action="/submit" method="post">
+            <br>
+           
+            <label for="website">Website:</label>
+            <input type="text" id="website" name="website" required>
+            <br><br>
+        
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+        
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+        
+            <button class="btn" type="submit">submit</button>
+          </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+

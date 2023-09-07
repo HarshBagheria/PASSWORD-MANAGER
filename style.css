@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background:url(background2.avif) no-repeat center center/cover;
+    opacity: 0.90;
+
+    
+}
+nav{
+    background-color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding: 13px 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: white;
+}
+nav ul{
+    display: flex;
+}
+ul li{
+    color: white;
+    list-style: none;
+    margin: 0px 19px;
+}
+ul li:hover{
+   cursor: pointer;
+   color: rgb(218, 211, 198);
+}
+
+.container{
+    color: rgb(247, 247, 247);
+    max-width: 80vw;
+    margin: 23px auto;
+
+}
+p{
+    font-size: medium;
+}
+h1,h2,h3{
+    margin: 23px 0px ;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
+    padding: 8px 17px;
+    border-radius: 34px;
+    font-weight: 600;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+table , td ,th , tr {
+    border: 2px solid rgb(61, 158, 197);
+    border-collapse: collapse;
+    padding: 5px 13px;
+}
+
+.btnsm{
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
+    padding: 8px 17px;
+    border-radius: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+img{
+    cursor: pointer;
+    position: relative;
+    bottom: 7px;
+    width: 15px;
+    height: 13px;
+}
+
+#alert{
+    display: none;
+}
+
+
+@media only screen and (max-width: 450px) {
+   
+    
+    nav{
+        height: 18vh;
+       display: flex;  
+       width: 100%;
+
+    }
+    nav ul {
+       
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        margin: auto;
+    }
+    
+    table , td ,th , tr {
+        border: 2px solid rgb(105, 115, 13);
+        max-width:14vw;
+        word-wrap: break-word;
+        
+    }
+   
+    .btnsm{
+      width: 60px;
+      
+    }
+   
+   
+
+}
